@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRM E-Commerce Store </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color: skyblue;">
+    <header>
+        <h1>SRM E-Commerce Store 💳</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="products">
+            <h1>Products</h1>
+            <div class="product">
+                <h2>I PHONE 15 PRO MAX</h2>
+                <img src="WhatsApp Image 2024-10-20 at 12.33.34 AM (1).jpeg" size width = "200px">
+                <p>Price: $1200</p>
+                <button onclick="addToCart('I PHONE 15 PRO MAX', 1200)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <h2>SAMSUNG S23 ULTRA</h2>
+                <img src="WhatsApp Image 2024-10-20 at 12.33.34 AM.jpeg" size width = "200px">
+                <p>Price: $1150</p>
+                <button onclick="addToCart('SAMSUNG S23 ULTRA', 1150)">Add to Cart</button>
+            </div>
+                <div class="product">
+                    <h2>APPLE WATCH ULTRA</h2>
+                    <img src="WhatsApp Image 2024-10-20 at 7.37.48 AM.jpeg" size width ="200px">
+                    <p>price:$800</p>
+                    <button onclick="addToCart('APPLE WATCH ULTRA', 800)">Add to Cart</button>
+                </div>
+        </div>
+        <div class="Laptops">
+            <div class ="device">
+             <h2>ASUS TUF GAMING F15</h2>
+             <img src = "WhatsApp Image 2024-10-20 at 1.56.49 AM.jpeg" size width="200px">
+             <p>price: $2000</p>
+             <button onclick="addToCart('ASUS TUF GAMING',2000)">Add to Cart</button>
+            </div>
+            <div class="device">
+                <h2>APPLE MAC BOOK M1</h2>
+                <img src = "WhatsApp Image 2024-10-20 at 2.21.07 AM.jpeg" size width="200px">
+                <p>price: $1000</p>
+                <button onclick="addToCart('MAC BOOK M1',1000)">Add to Cart</button>
+            </div>
+            <div class="device">
+                <h2>APPLE AIR PODS PRO</h2>
+                <img src="WhatsApp Image 2024-10-20 at 7.45.46 AM.jpeg" size width = "200px">
+                <p>price: $500</p>
+                <button onclick="addToCart('APPLE AIR PODS PRO',500)"size width="200px">Add to Cart</button>
+            </div>
+         </div>
+         <div class="cart">
+            <h2>Shopping Cart</h2>
+            <ol id="cart-items"></ol>
+            <p>Total: $<span id="total">0</span></p>
+        </div>
+        
+        <div class="contact">
+            <h2>Contact</h2>
+            <h4>+91 6379290038</h4>
+            <h4>srmsivabalan2359@gmail.com</h4>
+       </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

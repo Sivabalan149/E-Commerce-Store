@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color:black;
+    color: gray;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: gray;
+    text-decoration: none;
+}
+
+.products, .cart {
+    padding: 1rem;
+}
+
+.product {
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    display: inline-block;
+    padding: 1rem;
+    margin: 1rem 0;
+    width: 200px;
+    
+}
+
+.products{
+    text-align:center;
+}
+.device{
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    display: inline-block;
+    padding: 1rem;
+    margin: 1rem 0;
+    width: 200px;
+    
+}
+
+.Laptops{
+    text-align: center;
+}
+
+button {
+    background-color:black;
+    color: gray;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:white;
+}
+
+.contact{
+    background-color: black;
+    color: gray;
+    text-align: center;
+    padding: 10px;
+}
+
+
